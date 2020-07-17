@@ -34,3 +34,12 @@
     left: calc(50% - 25px);
     background-color: rgb(255,0,0);
 }
+.ax {
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    top: calc(50% - 2.5px);
+    left: calc(50% - 25px);
+    background-color: rgb(0,255,0);
+    transform: rotateX(90deg);
+}
