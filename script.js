@@ -10,6 +10,11 @@ function build(ty, id){
         playground.innerHTML += "<div class='ax'></div>";
         playground.innerHTML += "<div class='ay'></div>";
     }
+    if (ty == "axis3"){
+        playground.innerHTML += "<div class='ax'></div>";
+        playground.innerHTML += "<div class='ay'></div>";
+        playground.innerHTML += "<div class='az'></div>";
+    }
     eval("var "+id+" = document.getElementById("+id+")");
 }
 function del(obj){
